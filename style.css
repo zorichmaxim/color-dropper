@@ -1,0 +1,47 @@
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.selected-hex-code {
+    width: 100px;
+    font-size: 23px;
+    border: 1px solid #999;
+    padding: 7px 11px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 100;
+    line-height: 28px;
+}
+
+.upload-button {
+    width: 179px;
+}
+
+.upload-button::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.upload-button::before {
+    content: 'Select image';
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 7px 21px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 2px 1px #fff;
+    font-size: 23px;
+    font-weight: 100;
+}
+.upload-button:hover::before {
+    border-color: black;
+}

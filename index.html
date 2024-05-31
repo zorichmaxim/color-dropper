@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Dropper</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="controls">
+    <button id="colorDropper"></button>
+    <input class="upload-button" type="file" id="imageInput" accept="image/*">
+    <span class="selected-hex-code" id="selectedColor">#000000</span>
+</div>
 
+<section class="content">
+    <canvas id="colorCanvas"></canvas>
+</section>
+
+<div id="colorCircle">
+    <canvas id="magnifierCanvas"></canvas>
+    <span id="hexCode"></span>
+</div>
+
+<script src="src/index.js" defer></script>
 </body>
 </html>
