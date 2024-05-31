@@ -1,3 +1,25 @@
+#colorCircle {
+    position: absolute;
+    display: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    overflow: hidden;
+    border: 8px solid white;
+}
+
+#colorCircle canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .content {
     width: 100%;
     text-align: center;
@@ -44,4 +66,15 @@
 }
 .upload-button:hover::before {
     border-color: black;
+}
+
+#colorDropper {
+    background: url(assets/color-dropper.svg) lightgrey 7px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    border: unset;
+    border-radius: 15px;
+    cursor: pointer;
 }
