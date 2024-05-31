@@ -1,0 +1,26 @@
+{
+  "name": "color-dropper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorichmaxim/color-dropper.git"
+  },
+  "keywords": [],
+  "author": "Maks Zorych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zorichmaxim/color-dropper/issues"
+  },
+  "homepage": "https://github.com/zorichmaxim/color-dropper#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.4.5"
+  }
+}
