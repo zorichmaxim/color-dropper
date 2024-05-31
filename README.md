@@ -1,14 +1,18 @@
-# Color Picker Project
+# Color Dropper Project
 
 ## Features
 
+- Upload images.
+- Toggle color dropper mode by clicking on the dropper icon.
+- Display magnified view and hex code of the color under the cursor.
+- Select and display the color details by clicking on the canvas.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/color-picker.git
-    cd color-picker
+    cd color-dropper
     ```
 
 2. Install dependencies:
@@ -29,6 +33,10 @@
 ## Usage
 
 1. Open your web browser and navigate to `http://localhost:3000`.
+2. Click on the "Select Image" button to upload an image.
+3. Click on Dropper icon
+4. Hover over the canvas to see the color details in the magnifier circle.
+5. Click on the canvas to set selected color
 
 ## Files
 
